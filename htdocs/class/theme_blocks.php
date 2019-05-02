@@ -108,7 +108,9 @@ class xos_logos_PageBuilder
             XOOPS_FOOTERBLOCK_LEFT        => 'footer_left',
             XOOPS_FOOTERBLOCK_RIGHT       => 'footer_right',
             XOOPS_FOOTERBLOCK_CENTER      => 'footer_center',
-            XOOPS_FOOTERBLOCK_ALL         => 'footer_all');
+            XOOPS_FOOTERBLOCK_ALL         => 'footer_all',
+            XOOPS_SECTION_BLOCK           => 'theme_section'
+        );
 
         foreach ($oldzones as $zone) {
             $this->blocks[$zone] = array();

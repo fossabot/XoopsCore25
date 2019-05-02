@@ -49,6 +49,8 @@ define('_AM_SYSTEM_BLOCKS_CBFOOTERLEFT', 'Footer Block - Left');
 define('_AM_SYSTEM_BLOCKS_CBFOOTERCENTER', 'Footer Block - Center');
 define('_AM_SYSTEM_BLOCKS_CBFOOTERRIGHT', 'Footer Block - Right');
 
+define('_AM_SYSTEM_BLOCKS_THEMESECTION', 'Theme Section');
+
 define('_AM_SYSTEM_BLOCKS_CBBOTTOM', 'Center Block - Bottom');
 define('_AM_SYSTEM_BLOCKS_WEIGHT', 'Weight');
 define('_AM_SYSTEM_BLOCKS_VISIBLE', 'Visible');

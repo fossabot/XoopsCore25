@@ -80,6 +80,21 @@
     </div><!-- .home-message -->
 <{/if}>
 
+
+    <!-- start of new THEME SECTION blocks  -->
+    <{if $xoBlocks.theme_section}>
+        <div class="footer-blocks">
+            <div class="container">
+                <div class="row">
+                    <{includeq file="$theme_name/tpl/themeSection.tpl"}>
+                </div>
+            </div>
+        </div><!-- .footer-blocks -->
+    <{/if}>
+    <!-- end of new THEME SECTION blocks  -->
+
+
+
 <div class="row">
     <{includeq file="$theme_name/tpl/leftBlock.tpl"}>
 

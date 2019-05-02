@@ -35,7 +35,22 @@
             </tr>
             <tr>
                 <td>
+
+            <tr>
+                <!-- Start THEME SECTION Blocks (By Mamba) -->
+                <{*                            <table id="xo-block-managment"">*}>
+            <tr>
+                <td side="99" class="xo-blocksection" >
+                    <div class="xo-title"><{$smarty.const._AM_SYSTEM_BLOCKS_THEMESECTION}></div>
+                    <{includeq file="db:system_blocks_item.tpl" blocks=$blocks side=99}>
+                </td>
+            </tr>
+            <{*                            </table>*}>
+            <!-- End THEME SECTION Blocks (By Mamba) -->
+            </tr>
                     <table id="xo-block-managment">
+
+
                         <tr>
                             <td side="0" class="xo-blocksection" rowspan="3" id="xo-leftcolumn">
                                 <div class="xo-title"><{$smarty.const._AM_SYSTEM_BLOCKS_SIDELEFT}></div>

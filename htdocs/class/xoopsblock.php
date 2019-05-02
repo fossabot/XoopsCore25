@@ -416,6 +416,8 @@ class XoopsBlock extends XoopsObject
                 $side = '(side=3 OR side=4 OR side=5 OR side=7 OR side=8 OR side=9)';
             } elseif ($side == XOOPS_FOOTERBLOCK_ALL) {
                 $side = '(side=10 OR side=11 OR side=12)';
+            } elseif ($side == XOOPS_SECTION_BLOCK) {
+                $side = '(side=99)';
             } else {
                 $side = 'side=' . $side;
             }
